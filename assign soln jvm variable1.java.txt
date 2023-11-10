@@ -1,0 +1,46 @@
+1. WHAT IS THE DIFFERENCE BETWEEN JVM,JRE AND JDK?
+ANS:: 
+      JVM(JAVA VIRTUAL MACHINE CODE)::   it is specifically responsible for converting byte code(.class file) to manchine level code .
+                                     => it is also platform dependent. 
+       
+      JRE(JAVA RUNTIME ENVIRONMENT):: IT IS A SET OF SOFTWARE TOOLS RESPONSIBLE FOR EXECUTION OF THE JAVA PROGRAM ON THE SYSTEM.
+                                   => JRE USES HEAP SPACE FOR DYNAMIC MEMORY ALLOCATION FOR JAVA PROGRAM.
+                                   => JRE IS ALSO USES FOR DEBUGGING.
+
+     JDK(JAVA DEVLOPMENT KIT):: JDK contains all the tools required to compile, debug and run a program developed using the Java platform.
+                             :: it is a platform dependent.
+
+
+2.  HOW IS JAVA PROGRAMING LANGUAGE IS MACHINE AND PLATFORM INDEPENDENT?
+ANS:: it is the Byte code that makes the Java platform independent.
+     =>Because of the platform-independent, Java gets an important feature called portability.
+       Each system has its specific JVM that is installed automatically when the JDK is installed, and it is the JVM that reads the Byte code or .class file.
+
+3.EXPLAIN HOW JAVA PROGRAMS ARE EXECUTED BY THE JVM?
+ANS::  The bytecode is loaded into the JVM, and the JVM interprets the bytecode and executes the program.
+
+4.WHAT IS THE USE OF VAR-ARGS?
+ANS::Varargs also known as variable arguments.
+  => it is a method in java that takes input as a variable number of arguments. 
+
+5. WHAT ARE THE TYPES OF VARIABLES IN JAVA?
+ANS:: there are 3 types of variables 
+     a.instanse variable
+     b.static variable 
+     c.local variable
+6.HOW MANY TYPES OF MEMORY AREAS ARE ALLOCATE BY JVM?
+ANS::there are three types of memory areas are allocated by jvm.
+     a.method area
+     b.stack area 
+     c.heap area
+7.WHAT IS JUST IN TIME COMPILER(JIT)?
+ANS::JIT compiler is a component of the runtime environment that improves the performance of Java applications by compiling bytecodes to machine code at run time.
+
+ 
+
+
+
+
+
+
+                           
